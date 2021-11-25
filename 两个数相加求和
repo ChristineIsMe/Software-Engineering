@@ -1,0 +1,21 @@
+/******************************
+题目描述
+Calculate a+b
+输入
+Two integer a,b (0<=a,b<=10)
+输出
+Output a+b
+样例输入
+1 2
+样例输出
+3
+*******************************/
+
+#include <stdio.h>
+int main()
+{
+	int m,n;
+	scanf("%d %d",&m,&n);
+	printf("%d %d",m/n,m%n);
+	return 0;
+}
